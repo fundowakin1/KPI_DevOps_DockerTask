@@ -8,7 +8,7 @@
 
 ### Run docker image with options:
 
-`docker run -p 8000:80 --cpus=2 -m="100m" -d fundowakin/devopsdockerlab`
+`docker run -p 80:80 --cpus=2 -m="100m" -d fundowakin/devopsdockerlab`
 
 - -d - run container in the detached mode
 
